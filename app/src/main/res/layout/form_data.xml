@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <EditText
+        android:id="@+id/txt_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:background="@android:drawable/editbox_background_normal"/>
+
+    <EditText
+        android:id="@+id/txt_usia"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usia"
+        android:background="@android:drawable/editbox_background_normal"/>
+
+    <EditText
+        android:id="@+id/txt_alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alamat"
+        android:background="@android:drawable/editbox_background_normal"/>
+
+    <EditText
+        android:id="@+id/txt_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Status"
+        android:background="@android:drawable/editbox_background_normal"/>
+
+    <EditText
+        android:id="@+id/txt_hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hasil"
+        android:background="@android:drawable/editbox_background_normal"/>
+
+</LinearLayout>
